@@ -48,7 +48,7 @@ gulp.task('default',
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
-  rimraf('../public/*', done);
+  rimraf('../assets', done);rimraf('../index.html', done);
 }
 
 // Copy files out of the assets folder
