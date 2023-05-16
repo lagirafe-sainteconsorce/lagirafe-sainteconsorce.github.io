@@ -34,3 +34,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .
+          commit-message: "Gulpé en ligne"
+          branch: "main"
