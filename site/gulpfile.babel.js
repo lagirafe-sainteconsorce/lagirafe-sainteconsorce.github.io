@@ -49,7 +49,7 @@ gulp.task('default',
 // This happens every time a build starts
 function clean(done) {
   rimraf('../index.html', done);
-  rimraf('../assets', done);
+  rimraf('../assets/**/*', done);
 }
 
 // Copy files out of the assets folder
