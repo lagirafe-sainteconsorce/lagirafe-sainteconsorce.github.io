@@ -1,4 +1,0 @@
-- logo+images+liens RS+adresse
-- texte présentation
-- calendrier 6 dates
-- footer (siret, contact)
