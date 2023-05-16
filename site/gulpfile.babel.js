@@ -48,7 +48,8 @@ gulp.task('default',
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
-  rimraf('../assets', done);rimraf('../index.html', done);
+  rimraf('../index.html', done);
+  rimraf('../assets', done);
 }
 
 // Copy files out of the assets folder
@@ -174,6 +175,7 @@ function watch() {
   gulp.watch('src/{layouts,partials}/**/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/data/**/*.{js,json,yml}').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/helpers/**/*.js').on('all', gulp.series(resetPages, pages, browser.reload));
+  gulp.watch('src/assets/css/override.css').on('all', browser.reload);
   gulp.watch('src/assets/scss/**/*.scss').on('all', sassBuild);
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
