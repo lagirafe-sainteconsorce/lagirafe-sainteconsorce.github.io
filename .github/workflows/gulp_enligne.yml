@@ -24,16 +24,26 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-      - name: Build
+      - name: Install dependencies
         working-directory: site
-        run: |
-          npm install
-          npm run build
+        run: npm install
+
+      - name: Build Foundation 6
+        working-directory: site
+        run: npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: "."
-          commit-message: "Gulpé en ligne"
-          branch: "main"
+          folder: '.'
+          commit-message: 'Gulpé en ligne'
+          branch: 'main'
