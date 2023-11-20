@@ -33,9 +33,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
-        working-directory: site
-        run: npm install
+      # - name: Install dependencies
+      #   working-directory: site
+      #   run: npm install
 
       - name: Build Foundation 6
         working-directory: site
