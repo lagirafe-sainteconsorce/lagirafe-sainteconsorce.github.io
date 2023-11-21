@@ -1,4 +1,3 @@
-evenements:
   -
     date: 2023-10-08
     date_lisible: du jeudi 5 au dimanche 8 octobre
@@ -7,6 +6,12 @@ evenements:
     2eme ligne"
   -
     date: 2023-10-14
+    date_lisible: Samedi 14 octobre à 15h
+    titre: Tournoi de coinche !!
+    texte: "Rendez-vous à 15h, début des parties à 15h30"
+    lien: https://zurb.com/university/lessons/159
+  -
+    date: 2024-10-14
     date_lisible: Samedi 14 octobre à 15h
     titre: Tournoi de coinche !!
     texte: "Rendez-vous à 15h, début des parties à 15h30"

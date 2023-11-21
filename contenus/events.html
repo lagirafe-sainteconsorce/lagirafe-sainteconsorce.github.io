@@ -1,19 +1,19 @@
 {{#markdown}}
 ### événements
 <ul>
-	{{#each evenements.evenements}}
-	<li>
-		<div class="titre">{{titre}}</div>
-		{{#if date_lisible}}
-			<div class="date">{{date_lisible}}</div>
-		{{/if}}
-		{{#if texte}}
-			<div class="texte">{{texte}}</div>
-		{{/if}}
-		{{#if lien}}
-			<a class="lien" href="{{lien}}">en savoir plus</a>
-		{{/if}}
-	</li>
+	{{#each liste_evenements}}
+		<li>
+			<div class="titre">{{this.titre}}</div>
+			{{#if date_lisible}}
+				<div class="date">{{date_lisible}}</div>
+			{{/if}}
+			{{#if texte}}
+				<div class="texte">{{texte}}</div>
+			{{/if}}
+			{{#if lien}}
+				<a class="lien" href="{{lien}}">en savoir plus</a>
+			{{/if}}
+		</li>
 	{{/each}}
 </ul>
 {{/markdown}}
