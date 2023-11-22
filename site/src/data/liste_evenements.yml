@@ -1,18 +1,19 @@
-  -
-    date: 2023-10-08
-    date_lisible: du jeudi 5 au dimanche 8 octobre
-    titre: Exposition "Regard"
-    texte: "Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n\n
-    2eme ligne"
-  -
-    date: 2023-10-14
-    date_lisible: Samedi 14 octobre à 15h
-    titre: Tournoi de coinche !!
-    texte: "Rendez-vous à 15h, début des parties à 15h30"
-    lien: https://zurb.com/university/lessons/159
-  -
-    date: 2024-10-14
-    date_lisible: Samedi 14 octobre à 15h
-    titre: Tournoi de coinche !!
-    texte: "Rendez-vous à 15h, début des parties à 15h30"
-    lien: https://zurb.com/university/lessons/159
+- date: 2023-10-08
+  date_lisible: du jeudi 5 au dimanche 8 octobre 2023
+  titre: Exposition "Regard"
+  texte: "Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n\n 2eme ligne"
+- date: 2023-11-14
+  date_lisible: Samedi 14 novembre 2023 à 15h
+  titre: Suspendisse enim turpis
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
+- date: 2024-02-10
+  date_lisible: Samedi 10 février 2024 à 15h
+  titre: Praesent adipiscing
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
+- date: 2024-03-14
+  date_lisible: Samedi 14 mars à 15h
+  titre: Tournoi de coinche !!
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
