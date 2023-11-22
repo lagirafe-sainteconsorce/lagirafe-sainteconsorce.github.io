@@ -1,0 +1,9 @@
+GITHUB
+---
+login: lagirafe-sainteconsorce
+mdp : ulpt2023
+
+OVH
+---
+login: lieupourtous@gmail.com
+mdp : ulpt-nomdomaine
