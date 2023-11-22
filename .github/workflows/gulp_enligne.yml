@@ -15,27 +15,30 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: ['lts/*']
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          
+
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: |
+            ~/.npm
+            site/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/*.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
       - name: Install dependencies
         working-directory: site
-        run: npm install
+        run: npm ci --prefer-offline --no-audit
 
       - name: Build Foundation 6
         working-directory: site
