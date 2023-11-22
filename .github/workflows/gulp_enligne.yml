@@ -1,54 +1,52 @@
 name: Gulp dans GIT
-
-on:
+"on":
   push:
-    branches: ['main']
-  #pull_request:
-  #  branches: ['main']
+    branches:
+      - main
   schedule:
-    - cron: "*/2 * * * *"
-
+    - cron: "5 0 * * *"
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [14.x]
-
+        node-version:
+          - 14.x
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: "Use Node.js ${{ matrix.node-version }}"
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-
+          node-version: "${{ matrix.node-version }}"
       - name: Cache dependencies
+        id: cache-npm
         uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
         with:
-          path: |
-            ~/.npm
-            site/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/*.lock') }}
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
-
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        name: List the state of node modules
+        continue-on-error: true
+        run: npm list
       - name: Install dependencies
         working-directory: site
         run: npm ci --prefer-offline --no-audit
-
       - name: Build Foundation 6
         working-directory: site
         run: npm run build
-
-      - name: Deploy 🚀
+      - name: "Deploy"
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: '.'
-          commit-message: 'Gulpé en ligne'
-          branch: 'main'
+          folder: .
+          commit-message: Gulpé en ligne
+          branch: main
