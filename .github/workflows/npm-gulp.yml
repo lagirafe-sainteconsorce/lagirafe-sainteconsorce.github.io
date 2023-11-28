@@ -26,4 +26,4 @@ jobs:
       working-directory: site
       run: |
         npm install
-        gulp
+        gulp build
