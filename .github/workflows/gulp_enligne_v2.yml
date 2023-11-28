@@ -44,9 +44,3 @@ jobs:
       - name: Build Foundation 6
         working-directory: site
         run: npm run build
-      - name: "Deploy"
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
-          commit-message: Gulpé en ligne
-          branch: main
