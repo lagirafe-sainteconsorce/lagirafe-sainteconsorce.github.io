@@ -7,3 +7,9 @@ OVH
 ---
 login: lieupourtous@gmail.com
 mdp : ulpt-nomdomaine
+
+GULP
+---
+cd /Users/fredericschaffar/Documents/Travail/la\ girafe/site/site
+nvm use 14
+gulp

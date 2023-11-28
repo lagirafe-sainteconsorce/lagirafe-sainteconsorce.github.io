@@ -1,24 +1,58 @@
 - date: 2023-10-08
   date_lisible: du jeudi 5 au dimanche 8 octobre 2023
+  type: atelier
   titre: Exposition "Regard"
   texte: "Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n\n 2eme ligne"
 - date: 2023-11-14
   date_lisible: Samedi 14 novembre 2023 à 15h
+  type: rencontre
   titre: Suspendisse enim turpis
   texte: "Rendez-vous à 15h, début des parties à 15h30"
   lien: https://zurb.com/university/lessons/159
 - date: 2024-02-10
   date_lisible: Samedi 10 février 2024 à 15h
+  type: atelier
   titre: Praesent adipiscing
   texte: "Rendez-vous à 15h, début des parties à 15h30"
   lien: https://zurb.com/university/lessons/159
 - date: 2024-03-14
   date_lisible: Samedi 14 mars à 15h
+  type: association
   titre: Tournoi de coinche !!
   texte: "Rendez-vous à 15h, début des parties à 15h30"
   lien: https://zurb.com/university/lessons/159
 - date: 2022-08-12
   date_lisible: 12 août 2022, c'est l'été
+  type: divers
+  titre: Tournoi de coinche !!
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159  
+- date: 2023-10-08
+  date_lisible: du jeudi 5 au dimanche 8 octobre 2023
+  type: concert
+  titre: Exposition "Regard"
+  texte: "Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n\n 2eme ligne"
+- date: 2023-11-14
+  date_lisible: Samedi 14 novembre 2023 à 15h
+  type: jeux
+  titre: Suspendisse enim turpis
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
+- date: 2024-02-10
+  date_lisible: Samedi 10 février 2024 à 15h
+  type: concert
+  titre: Praesent adipiscing
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
+- date: 2024-03-14
+  date_lisible: Samedi 14 mars à 15h
+  type: atelier
+  titre: Tournoi de coinche !!
+  texte: "Rendez-vous à 15h, début des parties à 15h30"
+  lien: https://zurb.com/university/lessons/159
+- date: 2022-08-12
+  date_lisible: 12 août 2022, c'est l'été
+  type: rencontre
   titre: Tournoi de coinche !!
   texte: "Rendez-vous à 15h, début des parties à 15h30"
   lien: https://zurb.com/university/lessons/159  

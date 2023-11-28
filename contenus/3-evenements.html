@@ -1,0 +1,41 @@
+{{#markdown}} 
+## Événements
+### à venir
+{{/markdown}}
+<ul class="list_event" id="futureEvents">
+    {{#sortEvents liste_evenements 'future'}}
+    <li>
+        <div class="type {{type}}"></div>
+        <div class="content">
+            <div class="titre">{{titre}}</div>
+            {{#if date_lisible}}
+            <div class="date">{{date_lisible}}</div>
+            {{/if}} {{#if texte}}
+            <div class="texte">{{texte}}</div>
+            {{/if}} {{#if lien}}
+            <a class="lien" href="{{lien}}">en savoir<br>plus</a>
+            {{/if}}
+        </div>
+    </li>
+    {{/sortEvents}}
+</ul>
+{{#markdown}}
+### passés
+{{/markdown}}
+<ul class="list_event" id="pastEvents">
+    {{#sortEvents liste_evenements 'past'}}
+    <li>
+        <div class="type {{type}}"></div>
+        <div class="content">
+            <div class="titre">{{titre}}</div>
+            {{#if date_lisible}}
+            <div class="date">{{date_lisible}}</div>
+            {{/if}} {{#if texte}}
+            <div class="texte">{{texte}}</div>
+            {{/if}} {{#if lien}}
+            <a class="lien" href="{{lien}}">en savoir<br>plus</a>
+            {{/if}}
+        </div>
+    </li>
+    {{/sortEvents}}
+</ul>
