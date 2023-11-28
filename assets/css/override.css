@@ -26,7 +26,6 @@ strong {
 a {
 	color: var(--coultxt);
 	text-decoration: underline;
-	overflow-wrap: break-word;
 }
 a:hover {
 	color: var(--coul2);
@@ -86,13 +85,10 @@ header {
 	border-right: var(--stroke) solid var(--coul2);
 }
 header .logo {
-	text-align: center;
 	padding: var(--gutter);
-	display: inherit;
 }
 header .logo img {
 	max-height: 500px;
-	
 }
 header .logo:hover {
 	background-image: url(../img/fond-3.svg);
@@ -119,6 +115,11 @@ section > h2 {
 	padding: var(--gutter);
 	position: relative;
 }
+section > h3 {
+	font-size: var(--taille2);
+	font-weight: 700;
+	margin: var(--gutter) 0;
+}
 section > h2:before {
 	content: " ";
 	position: relative;
@@ -128,6 +129,8 @@ section > h2:before {
 	margin-right: var(--gutter);
 	background-size: 3000px;
 	border-right: var(--stroke) solid var(--coul2);
+	background-image: url(../img/fond-1.svg);
+	width: 200px;
 }
 section#presentation > h2:before {
 	background-image: url(../img/fond-1.svg);
@@ -148,11 +151,6 @@ section#association > h2:before {
 section#participer > h2:before {
 	background-image: url(../img/fond-1.svg);
 	width: 100px;
-}
-section > h3 {
-	font-size: var(--taille2);
-	font-weight: 700;
-	margin: var(--gutter) 0;
 }
 section#evenements {
 	padding-bottom: 0;
@@ -244,71 +242,4 @@ section ul:not(.list_event) li:not(:last-child) {
 	margin-bottom: calc(var(--gutter)*.5);
 	padding-bottom: calc(var(--gutter)*.5);
 	border-bottom: var(--stroke) solid var(--coultxt);
-}
-@media print, screen and (max-width: 1440px) {
-	section#evenements ul.list_event li {
-		flex: 1 0 50%;
-	}
-	:root {
-		--taille1: 1.4rem;
-		--taille2: 1rem;
-		--taille3: .8rem;
-		--taille4: .6rem;
-	}
-}
-@media print, screen and (max-width: 1024px) {
-	:root {
-		--taille1: 1.2rem;
-		--taille2: .8rem;
-		--taille3: .8rem;
-		--taille4: .6rem;
-		--gutter: 20px;
-		--stroke: 2px;
-	}
-	h1, .h1,
-	h2, .h2,
-	h3, .h3,
-	h4, .h4,
-	h5, .h5,
-	h6, .h6 {
-		letter-spacing: 5px;
-	}
-	.grid-container.full {
-		flex-direction: column;
-	}
-	header {
-		border-right: none;
-		border-bottom: var(--stroke) solid var(--coul2);
-	}
-	header ul.menu {
-		display: none !important;
-	}
-	section#evenements ul.list_event li {
-		flex: 1 0 100%;
-	}
-	section > h2:before {
-		content: " ";
-		display: block;
-		width: 200% !important;
-		margin: calc(var(--gutter)*-1);
-		padding: var(--gutter);
-		margin-bottom: var(--gutter);
-		border-right: none;
-		border-bottom: var(--stroke) solid var(--coul2);
-	}
-	section#presentation > h2:before {
-		height: 200px;
-	}
-	section#infos > h2:before {
-		height: 100px;
-	}
-	section#evenements > h2:before {
-		height: 300px;
-	}
-	section#association > h2:before {
-		height: 200px;
-	}
-	section#participer > h2:before {
-		height: 50px;
-	}
 }
