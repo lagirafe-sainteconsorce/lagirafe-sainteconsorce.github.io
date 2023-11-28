@@ -1,8 +1,0 @@
-{
-	"tabWidth": 2,
-	"useTabs": false,
-	"semi": false,
-	"singleQuote": true,
-	"twigPrintWidth": 120,
-  "plugins": ["/Users/elektrorl/.nvm/versions/node/v14.21.2/bin/prettier"]
-}
