@@ -48,15 +48,15 @@ gulp.task('default',
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
-  rimraf('../index.html', done);
-  rimraf('../assets/**/*', done);
+  rimraf('../dist/index.html', done);
+  rimraf('../dist/assets/**/*', done);
 }
 
 // Copy files out of the assets folder
 // This task skips over the "img", "js", and "scss" folders, which are parsed separately
 function copy() {
   return gulp.src(PATHS.assets)
-    .pipe(gulp.dest('../assets'));
+    .pipe(gulp.dest('../dist/assets'));
 }
 
 // Copy page templates into finished HTML files
