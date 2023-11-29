@@ -15,7 +15,7 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: ${{ matrix.node-version }}
-                  cache: "../site/yarn"
+                  cache: "yarn"
                   cache-dependency-path: "../site/yarn.lock"
             - name: Obtenir le chemin du cache du Yarn
               id: yarn-cache-dir-path
