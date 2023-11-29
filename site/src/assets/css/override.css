@@ -236,7 +236,7 @@ section#evenements ul.list_event li .titre {
 }
 section#evenements ul.list_event li .date {
 	color: var(--coul2);
-	font-size: var(--taille1);
+	font-size: var(--taille2);
 	line-height: 1.3;
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -287,8 +287,8 @@ section ul:not(.list_event) li:not(:last-child) {
 @media print, screen and (max-width: 1024px) {
 	:root {
 		--taille1: 1.2rem;
-		--taille2: .8rem;
-		--taille3: .8rem;
+		--taille2: .9rem;
+		--taille3: .9rem;
 		--taille4: .6rem;
 		--gutter: 20px;
 		--stroke: 2px;
