@@ -19,7 +19,8 @@ jobs:
                   cache-dependency-path: "site/yarn.lock"
             - name: Obtenir le chemin du cache du Yarn
               id: yarn-cache-dir-path
-              run: echo "::set-output name=dir::$(yarn cache dir)"
+              run: |
+                echo "dir=$(yarn cache dir)" >> $GITHUB_ENV
             - name: Mise en cache de Yarn
               uses: actions/cache@v3
               id: cache-yarn-cache
