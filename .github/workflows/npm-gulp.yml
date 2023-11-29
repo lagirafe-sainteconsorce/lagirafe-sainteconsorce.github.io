@@ -7,6 +7,10 @@ on:
 jobs:
     # Build job
     compilation:
+        defaults:
+          run:
+            working-directory: site
+
         runs-on: ubuntu-latest
 
         strategy:
