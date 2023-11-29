@@ -5,12 +5,13 @@
 :root {
 	--coul1: #34354A;
 	--coul2: #FCBC00;
-	--coultxt: #C3C4D5;
+	--coultxt: #DDD;
+	--coulbkg: var(--coul1);
 	--taille1: 2.0rem;
 	--taille2: 1.4rem;
 	--taille3: 1rem;
 	--taille4: .6rem;
-	--gutter: 40px;
+	--gutter: 50px;
 	--stroke: 2px;
 }
 
@@ -85,7 +86,7 @@ h6, .h6 {
 }
 header {
 	z-index: 1;
-	background-color: var(--coul1);
+	background-color: var(--coulbkg);
 	flex: 0 0 25%;
 	border-right: var(--stroke) solid var(--coul2);
 }
@@ -108,7 +109,7 @@ main {
 section {
 	padding: var(--gutter);
 	border-bottom: var(--stroke) solid var(--coul2);
-	background-color: var(--coul1);
+	background-color: var(--coulbkg);
 	position: relative;
 	color: var(--coultxt);
 	overflow: hidden;
@@ -273,6 +274,37 @@ section ul:not(.list_event) li:not(:last-child) {
 	padding-bottom: calc(var(--gutter)*.5);
 	border-bottom: var(--stroke) solid var(--coultxt);
 }
+section > ol {
+	display: flex;
+	margin: 0 calc(var(--gutter)*-1);
+	margin-bottom: calc(var(--gutter)*-1);
+}
+section > ol li {
+	list-style: none;
+}
+section > ol li {
+  position: relative;
+  line-height: 0;
+  background: var(--coul2);
+}
+section > ol li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  mix-blend-mode: lighten;
+  background: var(--coul1);
+  opacity: 1;
+}
+section > ol li > img {
+	filter:  brightness(120%)  grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(50%);
+	mix-blend-mode: multiply;
+}
+
+
+
 @media print, screen and (max-width: 1440px) {
 	section#evenements ul.list_event li {
 		flex: 1 0 50%;
@@ -282,6 +314,7 @@ section ul:not(.list_event) li:not(:last-child) {
 		--taille2: 1rem;
 		--taille3: .8rem;
 		--taille4: .6rem;
+		--gutter: 40px;
 	}
 }
 @media print, screen and (max-width: 1024px) {
@@ -338,5 +371,8 @@ section ul:not(.list_event) li:not(:last-child) {
 	}
 	section#participer > h2:before {
 		height: 50px;
+	}
+	section > ol {
+		flex-direction: column;
 	}
 }
