@@ -23,5 +23,5 @@ jobs:
     - name: Build
       working-directory: site
       run: |
-        npm install
-        npm run build
+        yarn
+        yarn run build
