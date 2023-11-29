@@ -65,8 +65,8 @@ function pages() {
     .pipe(panini({
       root: 'src/pages/',
       layouts: 'src/layouts/',
-      partials: '../contenus/',
-      data: 'src/data/',
+      partials: '../contenus/sections/',
+      data: '../contenus/evenements/',
       helpers: 'src/helpers/'
     }))
     .pipe(gulp.dest(PATHS.dist));
