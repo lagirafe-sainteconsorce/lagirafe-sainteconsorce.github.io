@@ -13,7 +13,7 @@ import autoprefixer  from 'autoprefixer';
 import imagemin      from 'gulp-imagemin';
 
 
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
 const uncss = require('postcss-uncss');
 
@@ -96,7 +96,9 @@ function sassBuild() {
     .pipe(sass({
       includePaths: PATHS.sass
     })
-    .on('error', $.sass.logError))
+    .on('error', function (err) {
+      console.log(err.message + ' on line ' + err.lineNumber + ' in file : ' + err.fileName);
+    }))
     .pipe(postcss(postCssPlugins))
     .pipe($.if(PRODUCTION, $.cleanCss({ compatibility: 'ie11' })))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
