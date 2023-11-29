@@ -26,6 +26,8 @@ jobs:
       run: |
         yarn
         yarn run build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2    
   # Deploy job
   deploy:
     # Add a dependency to the build job
@@ -33,6 +35,7 @@ jobs:
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
+      contents: read
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
 
