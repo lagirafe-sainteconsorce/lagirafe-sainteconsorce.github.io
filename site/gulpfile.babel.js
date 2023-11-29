@@ -142,7 +142,7 @@ function javascript() {
 // Copy images to the "dist" folder
 // In production, the images are compressed
 function images() {
-  return gulp.src('src/assets/img/**/*')
+  return gulp.src(['../contenus/images/**/*','src/assets/img/**/*'])
     .pipe($.if(PRODUCTION, imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.mozjpeg({quality: 85, progressive: true}),
@@ -182,4 +182,5 @@ function watch() {
   gulp.watch('src/assets/scss/**/*.scss').on('all', sassBuild);
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
+  gulp.watch('../contenus/images/**/*').on('all', gulp.series(images, browser.reload));
 }
