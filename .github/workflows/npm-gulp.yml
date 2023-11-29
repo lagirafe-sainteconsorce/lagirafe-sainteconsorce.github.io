@@ -1,55 +1,82 @@
 name: NodeJS with Gulp
 
 on:
-  push:
-    branches: [ "main" ]
+    push:
+        branches: ["main"]
 
 jobs:
     # Build job
-  build:
-    runs-on: ubuntu-latest
+    compilation:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [20.x]
+        strategy:
+            matrix:
+                node-version: [20.x]
 
-    steps:
-    - uses: actions/checkout@v3
+        steps:
+            - uses: actions/checkout@v4
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+            - name: Version de Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: "yarn"
 
-    - name: Build
-      working-directory: site
-      run: |
-        yarn
-        yarn run build
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        # upload entire directory
-        path: 'compil'  
-  # Deploy job
-  deploy:
-    # Add a dependency to the build job
-    needs: build
+            - name: Obtenir le chemin du cache du Yarn
+              id: yarn-cache-dir-path
+              run: echo "::set-output name=dir::$(yarn cache dir)"
 
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      contents: read
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+            - name: Mise en cache de Yarn
+              uses: actions/cache@v3
+              id: cache-yarn-cache
+              with:
+                  path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+                  key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-yarn-
+            - name: Cache node_modules
+              id: cache-node-modules
+              uses: actions/cache@v3
+              with:
+                  path: node_modules
+                  key: ${{ runner.os }}-${{ matrix.node-version }}-nodemodules-${{ hashFiles('**/yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-${{ matrix.node-version }}-nodemodules-
+            - name: Installe les dépendances avec Yarn
+              working-directory: site
+              run: yarn
+              if: |
+                  steps.cache-yarn-cache.outputs.cache-hit != 'true' || 
+                  steps.cache-node-modules.outputs.cache-hit != 'true'
 
-    # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+            - name: Compile le merdier avec Yarn
+              working-directory: site
+              run: yarn run build
 
-    # Specify runner + deployment step
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
+            - name: Empaqueter et télécharger des artefacts qui peuvent être déployés sur GitHub Pages.
+              uses: actions/upload-pages-artifact@v2
+              with:
+                  # upload entire directory
+                  path: "dist"
+    # Deploy job
+    deploiement:
+        # Add a dependency to the build job
+        needs: compilation
+
+        # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+        permissions:
+            contents: read
+            pages: write # to deploy to Pages
+            id-token: write # to verify the deployment originates from an appropriate source
+
+        # Deploy to the github-pages environment
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+        # Specify runner + deployment step
+        runs-on: ubuntu-latest
+        steps:
+            - name: Déployer vers GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
