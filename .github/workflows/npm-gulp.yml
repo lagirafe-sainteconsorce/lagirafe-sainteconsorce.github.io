@@ -23,13 +23,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      working-directory: site
       run: |
         npm install
-        gulp build
-    - name: "Deploy"
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: dist
-        commit-message: Compilé!
-        branch: main
+        gulp
