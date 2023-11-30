@@ -1,5 +1,7 @@
 name: NodeJS with Gulp
 on:
+    schedule:
+      - cron: '*/10 * * * *' # This will run the workflow every day at 00:05
     push:
         branches: ["main"]
 jobs:
