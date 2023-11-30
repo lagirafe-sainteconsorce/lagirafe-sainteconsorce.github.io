@@ -2,7 +2,7 @@
   date_lisible: du jeudi 5 au dimanche 8 octobre 2023
   type: atelier
   titre: Exposition "Regard"
-  texte: Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n \n Et la deuxième ligne
+  texte: Joëlle Reversat (sculptures) et Romain Schaller (peinture)  Et la deuxième ligne
 - date: 2023-11-14
   date_lisible: Samedi 14 novembre 2023 à 15h
   type: rencontre
@@ -30,8 +30,9 @@
 - date: 2023-10-08
   date_lisible: du jeudi 5 au dimanche 8 octobre 2023
   type: concert
-  titre: Exposition "Regard"
-  texte: "Joëlle Reversat (sculptures) et Romain Schaller (peinture) \n\n 2eme ligne"
+  titre: Exposition "Regard"avec 2e ligne de texte
+  texte: "Antidisestab\
+   lishmentarianism.\n\nGet on it."
 - date: 2023-11-14
   date_lisible: Samedi 14 novembre 2023 à 15h
   type: jeux
