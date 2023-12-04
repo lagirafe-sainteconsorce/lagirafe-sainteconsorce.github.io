@@ -24,6 +24,14 @@ body {
 strong {
 	font-weight: 700;
 }
+p .bg {
+	font-family: 'Unbounded', sans-serif;
+	font-weight: 700;
+	background-color: var(--coul2);
+	color: var(--coul1);
+	border: none;
+	padding: 2px 5px;
+}
 p strong, li strong {
 	color: #FFF;
 }
@@ -393,8 +401,8 @@ section > ol li > img {
 		border-right: none;
 		border-bottom: var(--stroke) solid var(--coul2);
 	}
-	header ul.menu {
-		display: none !important;
+	header .magellan-container ul.menu li:last-child a {
+		border-bottom: none;
 	}
 	section#evenements ul.list_event li {
 		flex: 1 0 100%;
@@ -410,7 +418,7 @@ section > ol li > img {
 		border-bottom: var(--stroke) solid var(--coul2);
 	}
 	section#presentation > h2:before {
-		height: 200px;
+		height: 70px;
 	}
 	section#infos > h2:before {
 		height: 100px;
