@@ -14,14 +14,14 @@
   titre: "FÊTE DES LUMIÈRES"
   texte: "La Girafe se joint à la fête cette année !! Une bonne occasion de découvrir LA GIRAFE si ce n'est pas encore fait ! 50% des recettes de la soirée seront reversées au Téléthon"
 - date: 2023-12-06
-  date_lisible: Mercredi 6 décembre 2023 à 20h !
-  type: asso
+  date_lisible: Mercredi 6 décembre 2023 à 20h
+  type: association
   titre: "ASSEMBLÉE GÉNÉRALE DE L'ASSO UN LIEU POUR TOUS"
   texte: "Un Lieu Pour Tous est l'association qui gère La Girafe. Vous êtes les bienvenu⋅e⋅s pour l'AG annuelle !"
   lien: https://drive.google.com/file/d/12j3tjjwHZYVc_oI8m1eZQyXtZaiXQmTh/view?usp=sharing
 - date: 2023-12-03
   date_lisible: Dimanche 3 décembre 2023 toute la matinée !
-  type: asso
+  type: association
   titre: LA GIRAFE SE MET AUX HUÎTRES
   texte: "On renoue avec la tradition des huîtres du dimanche matin : huitres et vin blanc à déguster ensemble !"
 - date: 2023-12-01
@@ -37,7 +37,7 @@
   lien: https://drive.google.com/file/d/1SXDbvwQtcsJ2JvVsDtBNrLHCDT_nb5eD/view?usp=sharing
 - date: 2023-10-14
   date_lisible: Samedi 14 octobre 2023 à partir de 15h
-  type: rencontre
+  type: jeux
   titre: Tournoi de coinche !!
   texte: "Rendez-vous à 15h, début des parties à 15h30. Possibilité de s'inscrire avec ou sans partenaire sur le groupe WhatsApp de la Girafe (voir plus bas) ou directement au bar !"
 - date: 2023-10-08
@@ -72,6 +72,6 @@
   texte: "Reprises pop', piano & basse"
 - date: 2023-06-04
   date_lisible: 4 juin 2023 toute la journée !!
-  type: asso
+  type: association
   titre: Inauguration de La Girafe !!
   texte: "Venez découvrir et fêter l'ouverture de ce lieu citoyen ouvert à toutes et tous ! Animations tout au long de la journée et petite restauration."
