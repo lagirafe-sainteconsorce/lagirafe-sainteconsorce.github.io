@@ -2,7 +2,9 @@
   date_lisible: Vendredi 22 décembre 2023 à 19h30
   type: concert
   titre: Concert - ROGGER (avec deux G)
-  texte: "Chansons (reprises) par un chansonnier de Marcy ! (Hugues Aufray, Graeme Allwright, ...) "
+  texte: |
+    Chansons (reprises) par un chansonnier de Marcy !
+    (Hugues Aufray, Graeme Allwright, ...)
 - date: 2023-12-15
   date_lisible: Vendredi 15 décembre 2023 à 19h30
   type: concert
