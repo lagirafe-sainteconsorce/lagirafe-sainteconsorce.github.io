@@ -6,7 +6,7 @@
 - date: 2023-12-15
   date_lisible: Vendredi 15 décembre 2023 à 19h30
   type: concert
-  titre: SCÈNE OUVERTE #3
+  titre: "SCÈNE OUVERTE #3"
   texte: "Ça devient une habitude, revoilà la scène ouverte ! Prenez vos instruments et venez jouer sur la fameuse scène de LA GIRAFE !"
 - date: 2023-12-08
   date_lisible: Vendredi 8 décembre 2023
@@ -48,7 +48,7 @@
 - date: 2023-09-29
   date_lisible: 29 septembre 2023 à 19h30
   type: concert
-  titre: SCÈNE OUVERTE #2
+  titre: "SCÈNE OUVERTE #2"
   texte: "Sortez vos instruments et venez jouer à La Girafe (ou juste écouter !) !!Inscription via le groupe WhatsApp Café Village (voir plus bas pour le rejoindre) ou directement au bar !"
 - date: 2023-09-22
   date_lisible: 22 septembre 2023 à 20h00
@@ -58,7 +58,7 @@
 - date: 2023-06-30
   date_lisible: 30 juin 2023 à 19h0
   type: concert
-  titre: SCÈNE OUVERTE #1
+  titre: "SCÈNE OUVERTE #1"
   texte: "Venez avec vos instruments et/ou vos voix ! Inscriptions (pour faciliter l'organisation) auprès de Ludo : 06 88 76 52 11"
 - date: 2023-06-23
   date_lisible: 23 juin 2023 à 19h30
