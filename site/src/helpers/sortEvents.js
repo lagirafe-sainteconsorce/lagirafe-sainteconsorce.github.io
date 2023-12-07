@@ -7,6 +7,8 @@ module.exports = function (events, type, options) {
     // Filtrer les événements en fonction du type spécifié (futur ou passé).
     const filteredEvents = events.filter(event => {
         const eventDate = new Date(event.date);
+        // On décale d'un jour pour laisser l'événement un jour de plus dans Future
+        eventDate.setDate(eventDate.getDate() + 1);
         const currentDate = new Date();
         // Si le type est 'future', retourner les événements dont la date est postérieure à la date actuelle.
         if (type === 'future') {
