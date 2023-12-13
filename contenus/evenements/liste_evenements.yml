@@ -1,3 +1,13 @@
+- date: 2024-03-14
+  date_lisible: Jeudi 14 mars 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #3"
+  texte: "Tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette troisième édition, le livre de Annie Ernaux (prix Nobel de littérature 2022) : 'LA PLACE', qui est édité en livre de poche (Folio). Des exemplaires sont disponibles à la médiathèque."
+- date: 2024-01-11
+  date_lisible: Jeudi 11 janvier 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #2"
+  texte: "Tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette seconde édition, le roman de Delphine de Vigan 'LES ENFANTS SONT ROIS'. Des exemplaires sont disponibles à la médiathèque."
 - date: 2023-12-22
   date_lisible: Vendredi 22 décembre 2023 à 19h30
   type: concert
@@ -34,7 +44,7 @@
 - date: 2023-10-19
   date_lisible: Jeudi 19 octobre 2023 à 20h30
   type: rencontre
-  titre: Café littéraire #1
+  titre: "Café littéraire #1"
   texte: "La Girafe lance ses cafés littéraires: tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette première édition, le livre de Tanguy Viel **ARTICLE 353 DU CODE PENAL** a été choisi. Vous en trouverez plusieurs exemplaires à la médiathèque !"
   lien: https://drive.google.com/file/d/1SXDbvwQtcsJ2JvVsDtBNrLHCDT_nb5eD/view?usp=sharing
 - date: 2023-10-14
