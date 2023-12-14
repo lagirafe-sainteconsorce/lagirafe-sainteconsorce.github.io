@@ -6,6 +6,8 @@ module.exports = function (events, type, options) {
     events = events || [];
     // Filtrer les événements en fonction du type spécifié (futur ou passé).
     const filteredEvents = events.filter(event => {
+        const newtext = event.texte.replace(/\n/g, '<br/>').replace(/(?:&nbsp;)* *([:!?])/, '&nbsp;$1').replace(' !', '&nbsp!');
+        event.texte = newtext;
         const eventDate = new Date(event.date);
         // On décale d'un jour pour laisser l'événement un jour de plus dans Future
         eventDate.setDate(eventDate.getDate() + 1);

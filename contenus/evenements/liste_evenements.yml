@@ -2,7 +2,14 @@
   date_lisible: Jeudi 14 mars 2024 à 20h30
   type: rencontre
   titre: "Café littéraire #3"
-  texte: "Tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette troisième édition, le livre de Annie Ernaux (prix Nobel de littérature 2022) : 'LA PLACE', qui est édité en livre de poche (Folio). Des exemplaires sont disponibles à la médiathèque."
+  texte: |
+    Tous
+    les
+    deux
+    mois une rencontre
+    autour d'un livre
+    animée par Régine Jomand-Baudry.
+    Pour cette troisième édition, le livre de Annie Ernaux (prix Nobel de littérature 2022) : 'LA PLACE', qui est édité en livre de poche (Folio). Des exemplaires sont disponibles à la médiathèque.
 - date: 2024-01-11
   date_lisible: Jeudi 11 janvier 2024 à 20h30
   type: rencontre
@@ -14,12 +21,12 @@
   titre: Concert - ROGGER (avec deux G)
   texte: |
     Chansons (reprises) par un chansonnier de Marcy !
-    (Hugues Aufray, Graeme Allwright, ...)
+    (Hugues Aufray, Graeme Allwright,&nbsp;…)
 - date: 2023-12-15
   date_lisible: Vendredi 15 décembre 2023 à 19h30
   type: concert
   titre: "SCÈNE OUVERTE #3"
-  texte: "Ça devient une habitude, revoilà la scène ouverte ! Prenez vos instruments et venez jouer sur la fameuse scène de LA GIRAFE !"
+  texte: Ça devient une habitude, revoilà la scène ouverte ! Prenez vos instruments et venez jouer sur la fameuse scène de LA GIRAFE !
 - date: 2023-12-08
   date_lisible: Vendredi 8 décembre 2023
   type: divers

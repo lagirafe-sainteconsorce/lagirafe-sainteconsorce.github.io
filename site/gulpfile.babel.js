@@ -176,6 +176,7 @@ function watch() {
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(pages, browser.reload));
   gulp.watch('src/layouts/**/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('../contenus/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
+  gulp.watch('../contenus/**/*.yml').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/data/**/*.{js,json,yml}').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/helpers/**/*.js').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/assets/css/*.css').on('all', browser.reload);
