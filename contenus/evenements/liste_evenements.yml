@@ -6,11 +6,13 @@
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
     Pour cette troisième édition, le livre de Annie Ernaux (prix Nobel de littérature 2022) : 'LA PLACE', qui est édité en livre de poche (Folio).
     Des exemplaires sont disponibles à la médiathèque.
-- date: 2024-01-11
-  date_lisible: Jeudi 11 janvier 2024 à 20h30
-  type: rencontre
-  titre: "Café littéraire #2"
-  texte: "Tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette seconde édition, le roman de Delphine de Vigan 'LES ENFANTS SONT ROIS'. Des exemplaires sont disponibles à la médiathèque."
+- date: 2024-01-19
+  date_lisible: Vendredi 19 janvier 2024 à 19h30
+  type: concert
+  titre: BLIND TEST (quiz musical)
+  texte: |
+    Venez tester vos connaissances musicales lors du premier un grand quiz ("blind test") à La Girafe ! 
+    Venez nombreu⋅x⋅ses
 - date: 2024-01-12
   date_lisible: Vendredi 12 janvier 2024 à 19h30
   type: concert
@@ -18,6 +20,11 @@
   texte: |
     Chansons (reprises) par un chansonnier de Marcy !
     (Hugues Aufray, Graeme Allwright,&nbsp;…)
+- date: 2024-01-11
+  date_lisible: Jeudi 11 janvier 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #2"
+  texte: "Tous les deux mois une rencontre autour d'un livre animée par Régine Jomand-Baudry. Pour cette seconde édition, le roman de Delphine de Vigan 'LES ENFANTS SONT ROIS'. Des exemplaires sont disponibles à la médiathèque."
 - date: 2023-12-15
   date_lisible: Vendredi 15 décembre 2023 à 19h30
   type: concert
