@@ -1,5 +1,6 @@
 /* @override 
-	http://localhost:8000/assets/css/override.css */
+	http://localhost:8000/assets/css/override.css
+	https://www.la-girafe.fr/assets/css/override.css */
 
 /* VAR */
 :root {
@@ -111,6 +112,10 @@ header {
 	background-color: var(--coulbkg);
 	flex: 0 0 25%;
 	border-right: var(--stroke) solid var(--coul2);
+}
+header .sticky.is-at-bottom {
+	margin-top: 0 !important;
+	top: 0 !important;
 }
 header .logo {
 	text-align: center;
