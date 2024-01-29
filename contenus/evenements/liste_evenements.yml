@@ -1,3 +1,10 @@
+- date: 2024-03-15
+  date_lisible: Vendredi 15 mars 2024 à 19h30
+  type: concert
+  titre: "SCÈNE OUVERTE #4"
+  texte: |
+    Et c'est reparti pour la désormais traditionnelle <strong>scène ouverte!</strong> Venez avec vos instruments/vos voix ! 
+    Pour l'organisation, contactez Ludo via l'un des groupes WhatsApp de la Girafe, ou venez au bar vous inscrire directement !
 - date: 2024-03-14
   date_lisible: Jeudi 14 mars 2024 à 20h30
   type: rencontre
@@ -6,6 +13,12 @@
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
     Pour cette troisième édition, le livre de Annie Ernaux (prix Nobel de littérature 2022) : 'LA PLACE', qui est édité en livre de poche (Folio).
     Des exemplaires sont disponibles à la médiathèque.
+- date: 2024-03-08
+  date_lisible: Vendredi 8 mars 2024 à 19h30
+  type: concert
+  titre: KARAOKÉ VIVANT !
+  texte: |
+    Qu'est-ce que c'est ? C'est simple : vous venez chanter vos chansons préférées, et vous êtes accompagné⋅e par des musiciens en LIVE !  
 - date: 2024-02-09
   date_lisible: Vendredi 9 février 2024 à 19h00
   type: jeux
