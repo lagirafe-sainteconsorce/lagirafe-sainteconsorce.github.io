@@ -3,10 +3,21 @@
   type: concert
   titre: "GIRAF'ESTIVAL #1"
   texte: |
-    Pour souffler sa première bougie, La Girafe organise son premier festival et bal estival, le <strong>GIRAF'ESTIVAL !</strong>
+    Pour souffler sa première bougie, La Girafe organise son premier <strong>festival et bal estival</strong>, le <strong>GIRAF'ESTIVAL !</strong>
     Au programme : du spectacle vivant, une boom pour les enfants, un bal folk et une piste de danse à venir enflammer !!
     Restauration (goûter/dîner/boissons) sur place !
     VENEZ NOMBREUX !
+- date: 2024-03-29
+  date_lisible: Vendredi 29 mars 2024 à 19h30
+  type: jeux
+  titre: Soirée Jeux « Farandole des Vallons »
+  texte: |
+    Une soirée jeux organisée en partenariat avec « La Farandole des Vallons », un Espace de Vie Sociale (EVS) géré par la Mutuelle Petite Enfance des Vallons du Lyonnais.
+    AU programme de nombreux jeux fournis ou apportés par vos soins. 
+    Pour petits et grands !
+    <i>Pour en savoir plus sur l'espace de vie sociale de la CCVL, cliquez sur le lien ci-dessous !</i>
+  lien: http://www.ccvl.fr/page.php?sid=page=DT1294829486lang=frcodej=france&page=DT1296662883&time=20190806054653
+
 - date: 2024-03-22
   date_lisible: Vendredi 22 mars 2024 à 19h30
   type: concert
