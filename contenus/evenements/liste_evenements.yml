@@ -1,3 +1,10 @@
+- date: 2024-09-26
+  date_lisible: Jeudi 26 septembre 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #4"
+  texte: |
+    Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
+    Pour cette cinquième édition, le livre sera annoncé très prochainement.
 - date: 2024-06-08
   date_lisible: Samedi 8 juin à partir de 16h
   type: concert
@@ -7,6 +14,14 @@
     Au programme : du spectacle vivant, une boom pour les enfants, un bal folk et une piste de danse à venir enflammer !!
     Restauration (goûter/dîner/boissons) sur place !
     VENEZ NOMBREUX !
+- date: 2024-06-06
+  date_lisible: Jeudi 6 juin 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #4"
+  texte: |
+    Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
+    Pour cette quatrième édition, le livre d'Eric Fottorino 'MOHICAN'.
+    Des exemplaires sont disponibles à la médiathèque.
 - date: 2024-05-15
   date_lisible: Mercredi 15 mai 2024 à 19h30
   type: rencontre
