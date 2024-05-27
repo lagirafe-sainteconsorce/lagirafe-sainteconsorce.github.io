@@ -1,10 +1,17 @@
 - date: 2024-09-26
   date_lisible: Jeudi 26 septembre 2024 à 20h30
   type: rencontre
-  titre: "Café littéraire #4"
+  titre: "Café littéraire #5"
   texte: |
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
     Pour cette cinquième édition, le livre sera annoncé très prochainement.
+- date: 2024-06-21
+  date_lisible: Vendredi 21 juin
+  type: concert
+  titre: "FÊTE DELA MUSIQUE"
+  texte: |
+    La fête de la musique tombe un vendredi ! Alors à vos instrument, c'est parti pour une soirée musicale !! C'est "Ludo" quigère les groupes, alors contactez-le pour vous inscire, son mail en suivant le lien ci-dessous !
+  lien : mailto:ludomeli@yahoo.fr
 - date: 2024-06-08
   date_lisible: Samedi 8 juin à partir de 16h
   type: concert
