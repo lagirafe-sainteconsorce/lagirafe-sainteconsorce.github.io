@@ -5,8 +5,20 @@
   texte: |
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
     Pour cette cinquième édition, le livre sera annoncé très prochainement.
+- date: 2024-07-12
+  date_lisible: Vendredi 12 juillet à 20h
+  type: concert
+  titre: "Luca Tiraboschi + Johan Neveu"
+  texte: |
+    Une double affiche exceptionnelle : les reprises Soul & Jazz de Luca Tiraboschi, suivies des compos electro de Johan Neveu. Belle soirée musicale en perspective ! 
+- date: 2024-06-28
+  date_lisible: Vendredi 28 juin à 20h
+  type: concert
+  titre: "Sylva L (Jazz)"
+  texte: |
+    Une voix, un piano, une contrebasse, des percussions légères, une esthétique Jazz et une folle envie de partager nos émotions en racontant des histoires d'amour, émouvantes ou drôles...
 - date: 2024-06-21
-  date_lisible: Vendredi 21 juin
+  date_lisible: Vendredi 21 juin d-s 19h00
   type: concert
   titre: "FÊTE DELA MUSIQUE"
   texte: |
