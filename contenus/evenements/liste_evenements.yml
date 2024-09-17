@@ -1,10 +1,17 @@
 - date: 2024-09-26
+  date_lisible: Jeudi 12 décembre 2024 à 20h30
+  type: rencontre
+  titre: "Café littéraire #6"
+  texte: |
+    Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
+    Pour cette sixième édition, le roman d'Emmanuel Carrère 'D'autres vies que la mienne'. Des exemplaires sont disponibles à la médiathèque de Sainte-Consorce.
+- date: 2024-09-26
   date_lisible: Jeudi 26 septembre 2024 à 20h30
   type: rencontre
   titre: "Café littéraire #5"
   texte: |
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
-    Pour cette cinquième édition, le livre sera annoncé très prochainement.
+    our cette cinquième édition, le roman de Nicolas Mathieu 'Leurs enfants après eux', prix Goncourt 2018. Disponible en poche et en prêt à la médiathèque. Venez nombreux !
 - date: 2024-06-28
   date_lisible: Vendredi 28 juin à 20h
   type: concert
