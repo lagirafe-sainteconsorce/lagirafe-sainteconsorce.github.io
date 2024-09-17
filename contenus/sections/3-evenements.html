@@ -1,4 +1,4 @@
-{{#markdown}} 
+{{#markdown}}
 ## Événements
 ### à venir
 {{/markdown}}
@@ -21,32 +21,31 @@
     </li>
     {{/sortEvents}}
 </ul>
-
 <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
-  <li class="accordion-item" data-accordion-item>
-    <a href="#" class="accordion-title">
-        <h3>passés</h3>
-    </a>
-    <div class="accordion-content" data-tab-content>
-        <ul class="list_event" id="pastEvents">
-            {{#sortEvents liste_evenements 'past'}}
-            <li>
-                <div class="type {{type}}"></div>
-                <div class="content">
-                    {{#if date_lisible}}
-                    <div class="date">{{date_lisible}}</div>
-                    {{/if}}
-                    <div class="titre">{{titre}}</div>
-                    {{#if texte}}
-                    <div class="texte">{{texte}}</div>
-                    {{/if}}
-                    {{#if lien}}
-                    <a class="lien" href="{{lien}}" target="_blank">en savoir<br>plus</a>
-                    {{/if}}
-                </div>
-            </li>
-            {{/sortEvents}}
-        </ul>
-    </div>
-  </li>
+    <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">
+            <h3>passés</h3>
+        </a>
+        <div class="accordion-content" data-tab-content>
+            <ul class="list_event" id="pastEvents">
+                {{#sortEvents liste_evenements 'past'}}
+                <li>
+                    <div class="type {{type}}"></div>
+                    <div class="content">
+                        {{#if date_lisible}}
+                        <div class="date">{{date_lisible}}</div>
+                        {{/if}}
+                        <div class="titre">{{titre}}</div>
+                        {{#if texte}}
+                        <div class="texte">{{{texte}}}</div>
+                        {{/if}}
+                        {{#if lien}}
+                        <a class="lien" href="{{lien}}" target="_blank">en savoir<br>plus</a>
+                        {{/if}}
+                    </div>
+                </li>
+                {{/sortEvents}}
+            </ul>
+        </div>
+    </li>
 </ul>
