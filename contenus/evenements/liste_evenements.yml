@@ -11,7 +11,7 @@
   titre: "Café littéraire #5"
   texte: |
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
-    our cette cinquième édition, le roman de Nicolas Mathieu 'Leurs enfants après eux', prix Goncourt 2018. Disponible en poche et en prêt à la médiathèque. Venez nombreux !
+    Pour cette cinquième édition, le roman de Nicolas Mathieu 'Leurs enfants après eux', prix Goncourt 2018. Disponible en poche et en prêt à la médiathèque. Venez nombreux !
 - date: 2024-06-28
   date_lisible: Vendredi 28 juin à 20h
   type: concert
@@ -24,7 +24,7 @@
   titre: "FÊTE DE LA MUSIQUE"
   texte: |
     La fête de la musique tombe un vendredi ! Alors à vos instruments, c'est parti pour une soirée musicale à La Girafe !! C'est "Ludo" qui gère les groupes, alors contactez-le pour vous inscire, son mail en suivant le lien ci-dessous !
-  lien : mailto:ludomeli@yahoo.fr
+  lien: mailto:ludomeli@yahoo.fr
 - date: 2024-06-08
   date_lisible: Samedi 8 juin à partir de 16h
   type: concert
@@ -45,19 +45,19 @@
 - date: 2024-05-15
   date_lisible: Mercredi 15 mai 2024 à 19h30
   type: rencontre
-  titre: Soirée sciences - Pint of Science 
+  titre: Soirée sciences - Pint of Science
   texte: |
     La Girafe se joint à l'initiative mondiale Pint of Science qui vise à faire découvrir la recherche scientifique dans un cadred détendu, en l'occurence... La Girafe ! 
     Deux intervenant⋅e⋅s lyonnais⋅e⋅s spécialiste de l'évolution sortiront de leur labo pour vous parler de l'origine de la vie et de la place du hasard dans l'évolution biologique !
     Inscritipion nécessaire. Entrée 2€. 
     Plus d'infos et inscrtiption via le site de Pint of Science (lien ci-dessous) !
-  lien : https://pintofscience.fr/events/sainte-consorce
+  lien: https://pintofscience.fr/events/sainte-consorce
 - date: 2024-05-05
   date_lisible: Du 3 au 5 mai 2024
   type: divers
-  titre: Exposition de Joëlle Prémat  
+  titre: Exposition de Joëlle Prémat
   texte: |
-    Expo-vente de poteries et "fusing" pour la fête des mères ! (horaires à venir) 
+    Expo-vente de poteries et "fusing" pour la fête des mères ! (horaires à venir)
 - date: 2024-04-12
   date_lisible: Vendredi 12 avril 2024 à 19h30
   type: rencontre
@@ -79,14 +79,14 @@
   type: rencontre
   titre: Soirée de soutien à l'association "Un jardin pour Félix"
   texte: |
-      L'association "Un jardin pour Félix" investit la Girafe pour une soirée spécial en soutien à Félix, enfant atteint d'une maladie génétique rare. 
+    L'association "Un jardin pour Félix" investit la Girafe pour une soirée spécial en soutien à Félix, enfant atteint d'une maladie génétique rare.
   lien: https://www.facebook.com/unjardinpourfelix/
 - date: 2024-03-22
   date_lisible: Vendredi 22 mars 2024 à 19h30
   type: concert
   titre: Luca Tiraboschi
   texte: |
-    Le retour de Luca, jeune et talentueux chanteur consorçois habitué des concerts à La Girafe, pour un répertoire Soul et Jazz (reprises) ! 
+    Le retour de Luca, jeune et talentueux chanteur consorçois habitué des concerts à La Girafe, pour un répertoire Soul et Jazz (reprises) !
 - date: 2024-03-15
   date_lisible: Vendredi 15 mars 2024 à 19h30
   type: concert
@@ -107,7 +107,7 @@
   type: concert
   titre: KARAOKÉ VIVANT !
   texte: |
-    Qu'est-ce que c'est ? C'est simple : vous venez chanter vos chansons préférées, et vous êtes accompagné⋅e par des musiciens en LIVE !  
+    Qu'est-ce que c'est ? C'est simple : vous venez chanter vos chansons préférées, et vous êtes accompagné⋅e par des musiciens en LIVE !
 - date: 2024-02-09
   date_lisible: Vendredi 9 février 2024 à 19h00
   type: jeux
@@ -124,7 +124,7 @@
   texte: |
     Pas de tournoi cette fois-ci, juste un après-midi pour <strong>jouer à la coinche</strong>, apprendre ou se perfectionner ! 
     Des joueurs et des joueuses chevronné⋅e⋅s seront là pour vous donner des conseils ! 
-    Bonne humeur assurée !! 
+    Bonne humeur assurée !!
 - date: 2024-01-19
   date_lisible: Vendredi 19 janvier 2024 à 19h30
   type: jeux
