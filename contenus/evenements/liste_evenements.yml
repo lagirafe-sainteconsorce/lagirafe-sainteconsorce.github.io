@@ -1,10 +1,23 @@
-- date: 2024-09-26
+- date: 2024-12-12
   date_lisible: Jeudi 12 décembre 2024 à 20h30
   type: rencontre
   titre: "Café littéraire #6"
   texte: |
     Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
     Pour cette sixième édition, le roman d'Emmanuel Carrère 'D'autres vies que la mienne'. Des exemplaires sont disponibles à la médiathèque de Sainte-Consorce.
+- date: 2024-10-18
+  date_lisible: Vendredi 18 octobre 2024 de 19h00 à 22h00
+  type: concert
+  titre: "Soirée mixage House/Disco/Rock"
+  texte: |
+    À la Girafe pour la première fois, Anaël et ses amis viennent mixer et passer des vinyles House, disco & rock jusqu'à 22h ! On vous attend nombreux !
+- date: 2024-10-11
+  date_lisible: Vendredi 11 octobre 2024
+  type: concert
+  titre: "Soirée Jam"
+  texte: |
+    Soirée "Jam" (impro musique) avec mise à disposition de quelques instruments pour celles et ou ceux qui souhaitent s'essayer à l'acoustique (principalement guitare x2 et 1 cajon).
+    Animé par Guillaume, votre hôte de la soirée mais aussi prof de musique, il sera là pour vous accompagner dans le jeu de vos titre préférés !
 - date: 2024-09-26
   date_lisible: Jeudi 26 septembre 2024 à 20h30
   type: rencontre
