@@ -23,7 +23,7 @@ jobs:
               id: yarn-cache-dir-path
               run: echo "dir=$(yarn cache dir)" >>$GITHUB_OUTPUT
             - name: Mise en cache de Yarn
-              uses: actions/cache@v3
+              uses: actions/cache@v4
               id: cache-yarn-cache
               with:
                   path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -32,7 +32,7 @@ jobs:
                       ${{ runner.os }}-yarn-
             - name: Cache node_modules
               id: cache-node-modules
-              uses: actions/cache@v3
+              uses: actions/cache@v4
               with:
                   path: 'site/node_modules'
                   key: ${{ runner.os }}-${{ matrix.node-version }}-nodemodules-${{ hashFiles('**/yarn.lock') }}
@@ -70,4 +70,4 @@ jobs:
         steps:
             - name: Déployer vers GitHub Pages
               id: deployment
-              uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
+              uses: actions/deploy-pages@v4 # or the latest "vX.X.X" version tag for this action
