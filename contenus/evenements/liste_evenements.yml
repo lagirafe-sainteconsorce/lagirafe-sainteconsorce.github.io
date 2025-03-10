@@ -1,3 +1,71 @@
+- date: 2025-04-13
+  date_lisible: Dimanche 13 avril 2025 de 13h45 à 18h00
+  type: jeux
+  titre: "Tournoi d'échecs"
+  texte: |
+    Pour les amatrices et les amateurs d'échecs (et de mats !), un tout premier tournoi à La Girafe ! Un beau dimanche après-midi en perspectives. Parties de 10 minutes. Inscription gratuite mais nécessaire par mail à sergeferrandez@free.fr. 
+- date: 2025-03-28
+  date_lisible: Vendredi 28 mars 2025 à 20h00
+  type: concert
+  titre: "Poêmes en musiques"
+  texte: |
+    'Oceano Nox', le collectif mené par Jean-Pierre Hercourt (poêmes) et Amélie Charpenay (piano) vous emmêne pour une promenade poétique et musicale. Entrée libre et gratuite.
+- date: 2025-03-27
+  date_lisible: Jeudi 27 mars 2025 à 19h30
+  type: rencontre
+  titre: "Atelier Communication non-violente"
+  texte: |
+    Un atelier ouvert à toutes et tous autour de la communication non-violente. Animé par Karine Evieux. Pour s'inscrire (recommandé !), envoyer un mail à karineevieux@gmail.com.
+- date: 2025-03-21
+  date_lisible: Vendredi 21 mars 2025 à 19h00
+  type: concert
+  titre: "SCÈNE OUVERTE #6"
+  texte: |
+    La scène ouverte "hors-les-murs" de La Girafe revient ! Vous souhaitez jouer, chanter, déclamer ?... Ou juste passer une bonne soirée ? Ca se passe à la salle d'animation, ambiance garantie ! Pour réserver un créneau sur scène, envoyer un mail à lieupourtous@gmail.com.  
+- date: 2025-03-14
+  date_lisible: Vendredi 14 mars 2025 à 19h30
+  type: concert
+  titre: "Concert Luca Tiraboschi"
+  texte: |
+    Concert de reprises Soul et Jazz, avec le chanteur consorçois Luca Tiraboschi, habitué des lieux !! Entrée libre et gratuite ! 
+- date: 2025-03-10
+  date_lisible: Lundi 10 mars 2025 à 19h00
+  type: rencontre
+  titre: "Atelier broderie"
+  texte: |
+    Avec Joséphine Lavorel. PLACES LIMITÉES : contacter 06 19 99 50 82  pour résever. Participation libre, prêt du matériel sur place. 
+- date: 2025-02-27
+  date_lisible: Jeudi 27 février 2025 à 20h30
+  type: rencontre
+  titre: "Café littéraire #7"
+  texte: |
+    Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
+    Pour cette septième édition, rencontre autour du roman de Murielle Barbery 'L'élégance du hérisson' (2006) et du film librement inspiré de ce roman 'Le Hérisson' de Mona Achache (2009). Des exemplaires du roman sont disponibles à la médiathèque de Sainte-Consorce.
+- date: 2025-02-16
+  date_lisible: Dimanche 16 février 2025 à partir de 11h
+  type: divers
+  titre: BRUNCH !
+  texte: |
+    L'équipe de bénévoles de la girafe lance Le Brunch de la Girafe !! D'autres dimanches suivront ! Inscription nécessaire avant le 15 février en écrivant à lieupourtous@gmail.com. Le menu du brunch est disponible en cliquant sur le lien ci-dessous ! 
+  lien: https://drive.google.com/file/d/1x2RdeQSXniZtAJml-RuRfwtJ3Z5LdJl8/view?usp=sharing
+- date: 2025-02-10
+  date_lisible: Lundi 10 février 2025 de 18h00 à 19h30
+  type: rencontre
+  titre: Café Broderie
+  texte: |
+    Sans inscription et ouvert à toutes et tous. Joséphine Lavorel vous initie à la broderie ! 
+- date: 2025-02-08
+  date_lisible: Samedi 8 février 2025 à 14h30
+  type: rencontre
+  titre: Filage de laine - démo
+  texte: |
+    Démo de filage de laine avec explications ! Gratuit sur inscription en envoyant un mail à lieuportous@gmail.com !
+- date: 2025-02-07
+  date_lisible: Vendredi 7 février 2025 à partir de 19h30
+  type: jeux
+  titre: Tournoi de fléchettes 
+  texte: |
+    Une première à La Girafe, les tournois de fléchettes ! Nombreux lots à gagner !! Attention, nombre de places limité. Inscription conseillée avant le 5 février en envoyant un mail à lieupourtous@gmail.com.
 - date: 2024-12-13
   date_lisible: Vendredi 13 décembre 2024 à 19h30
   type: concert
