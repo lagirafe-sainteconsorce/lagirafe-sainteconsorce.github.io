@@ -48,7 +48,7 @@ jobs:
               working-directory: site
               run: yarn run build
             - name: Empaqueter et télécharger des artefacts qui peuvent être déployés sur GitHub Pages.
-              uses: actions/upload-pages-artifact@v2
+              uses: actions/upload-pages-artifact@v3
               with:
                   # upload entire directory
                   path: "dist"
