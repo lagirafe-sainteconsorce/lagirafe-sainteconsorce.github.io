@@ -1,9 +1,46 @@
+- date: 2025-06-21
+  date_lisible: Samedi 21 juin 2025 à partir de 16h
+  type: concert
+  titre: "GIRAF'ESTIVAL #2"
+  texte: |
+    Et voilà la deuxième édition du <strong>Giraf'Estival</strong>, le <strong>festival et bal estival</strong> de LA GIRAFE !
+    Au programme : du spectacle vivant, une boom pour les enfants, des concerts rock et folk et une piste de danse à venir enflammer !!
+    Restauration (goûter/dîner/boissons) sur place !
+    VENEZ NOMBREUX !
+- date: 2025-05-20
+  date_lisible: Mardi 20 mai 2025 à 19h00
+  type: rencontre
+  titre: Soirée sciences - Pint of Science
+  texte: |
+    Pour la deuxième année consécutive, La Girafe se joint à l'initiative mondiale « Pint of Science » qui vise à faire découvrir la recherche scientifique dans un cadred détendu, en l'occurence... La Girafe ! 
+    Deux intervenants de l'ouest lyonnais viendront vous parler de leurs recherches, autour des marmottes, des moustiques, et de la modélisation mathématique de la nature. Un beau voyage garanti ! Entrée 2€. 
+    Plus d'infos et inscrtiption via le site de Pint of Science (lien ci-dessous) !
+  lien: https://pintofscience.fr/events/sainte-consorce
+- date: 2025-04-17
+  date_lisible: Jeudi 17 avril 2025 à 19h00
+  type: rencontre
+  titre: "Conférence sur les sous-marins militaires"
+  texte: |
+    Plongez dans un monde de silence en compagnie de deux sous mariniers de la Marine Nationale !
 - date: 2025-04-13
   date_lisible: Dimanche 13 avril 2025 de 13h45 à 18h00
   type: jeux
   titre: "Tournoi d'échecs"
   texte: |
     Pour les amatrices et les amateurs d'échecs (et de mats !), le tout premier tournoi de La Girafe ! Un beau dimanche après-midi en perspectives. Parties de 10 minutes. Inscription gratuite mais nécessaire par mail à sergeferrandez@free.fr. 
+- date: 2025-04-10
+  date_lisible: Jeudi 10 avril 2025 à 20h30
+  type: rencontre
+  titre: "Café littéraire #8"
+  texte: |
+    Tous les deux mois une <strong>rencontre</strong> autour d'un livre animée par Régine Jomand-Baudry.
+    Pour cette huitième édition, rencontre autour du roman de Pierre Lemaître « Au revoir là-haut », Prix Goncourt 2013, et de l'adaptation au cinéma d'Albert Dupontel (2018).
+- date: 2025-04-09
+  date_lisible: Mercredi 9 avril 2025 à 19h30
+  type: rencontre
+  titre: "Atelier d'information sur le droit funéraire"
+  texte: |
+    Animé par Edith, salariée de la coopérative funéraire de Lyon. Venez vous informer et discuter de la mort et des obsèques autour d’une tisane, d’une bière, ...! 
 - date: 2025-03-28
   date_lisible: Vendredi 28 mars 2025 à 20h00
   type: concert
