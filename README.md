@@ -32,3 +32,5 @@ Voilà les différents types possibles :
 - `rencontre`  
 - `divers`  
 - `jeux`
+
+Tous les événements doivent rester sur le fichier des événements, même les événements passés, pour qu'ils apparaîssent dans le site sous la rubrique "événements passés".
