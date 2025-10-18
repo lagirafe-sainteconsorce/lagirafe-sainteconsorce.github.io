@@ -24,3 +24,11 @@ Les événements sont tous listés dans le même fichier ```contenus/evenements/
 La **date** doit être formattée ainsi: ```yyyy-mm-dd``` pour que les événements soient correctement triés sur le site. 
 Les autres champs peuvent contenir n'importe quel texte ou lien internet. 
 
+Le **type** correspond à la petite icône associée à chaque événement.  
+Voilà les différents types possibles :  
+- `atelier`  
+- `concert`  
+- `association`  
+- `rencontre`  
+- `divers`  
+- `jeux`
