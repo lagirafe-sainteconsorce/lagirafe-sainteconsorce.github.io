@@ -1,6 +1,6 @@
 - date: 2025-12-19
   date_lisible: Vendredi 19 décembre 2025 à partir de 19h
-  type: divers
+  type: rencontre
   titre: "Soirée de Noël"
   texte: |
     Dernière soirée 2025 de la Girafe.
@@ -10,14 +10,14 @@
   type: concert
   titre: "Scène ouverte"
   texte: |
-    Nouvelle édition des scènes ouvertes avec un spectacle "Sous la peau" de Sébastien Blache
+    Nouvelle édition des scènes ouvertes "hors les murs" avec le spectacle "Sous la peau" de Sébastien Blache
     Et ça se passe à la salle d'animation de Ste Consorce.
 - date: 2025-12-11
   date_lisible: Jeudi 11 décembre 2025 à 20h30
   type: rencontre
   titre: "Café littéraire"
   texte: |
-    Venez échanger autour du livre 
+    Venez échanger autour du très original et subtil roman d'Eric Reinhardt "Sarah, Suzanne et l'écrivain" (Folio, 2023)
 - date: 2025-12-05
   date_lisible: Vendredi 5 décembre 2025 à partir de 19h
   type: jeux
