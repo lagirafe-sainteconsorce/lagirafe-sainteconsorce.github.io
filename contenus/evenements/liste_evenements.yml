@@ -1,3 +1,38 @@
+- date: 2026-07-04
+  date_lisible: Samedi 4 Juillet 2026
+  type: concert
+  titre: "GIRAF'ESTIVAL #3"
+  texte: |
+    Et voilà la 3ème édition du <strong>Giraf'Estival</strong>, le <strong>festival et bal estival</strong> de LA GIRAFE !
+    Au programme : du spectacle vivant, une boom pour les enfants, des concerts et une piste de danse à venir enflammer !!
+    Restauration (goûter/dîner/boissons) sur place !
+    VENEZ NOMBREUX !
+- date: 2026-03-31
+  date_lisible: Mardi 31 mars 2026 à partir de 19h30
+  type: rencontre
+  titre: "Caf'Energie du CEVIVAL"
+  texte: |
+    Le CEVIVAL (Centrales Villageoises des Vallons du Lyonnais), est une société de production d'énergie locale à gouvernance citoyenne.
+    Depuis 2017, ils accompagne pour installer des centrales solaires photovoltaïques chez les particuliers, les entreprises ou les collectivités territoriales.
+- date: 2026-03-27
+  date_lisible: Vendredi 27 mars 2026
+  type: jeux
+  titre: "Soirée fléchettes"
+  texte: |
+    Tentez de devenir le roi ou la reine des fléchettes de Sainte Consorce 🎯 !
+- date: 2026-03-21
+  date_lisible: Samedi 21 mars 2026 à partir de 17h
+  type: concert
+  titre: "Scène ouverte"
+  texte: |
+    Scènes ouverte à la salle d'animation de Sainte Consorce.
+    17h : Spécial Jeunes / 20h : Adultes suivi d'un boeuf musical 🎤 🎧 🎸
+- date: 2026-03-14
+  date_lisible: Samedi 14 mars 2026 à partir de 20h
+  type: rencontre
+  titre: "Rugby : Match France / Angleterre"
+  texte: |
+    Venez regarder avec nous le match de rugby France / Angleterre 🇫🇷 🏉 🇬🇧 
 - date: 2025-12-19
   date_lisible: Vendredi 19 décembre 2025 à partir de 19h
   type: rencontre
