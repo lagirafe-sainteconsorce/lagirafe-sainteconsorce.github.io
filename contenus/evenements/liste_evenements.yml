@@ -7,6 +7,18 @@
     Au programme : du spectacle vivant, une boom pour les enfants, des concerts et une piste de danse à venir enflammer !!
     Restauration (goûter/dîner/boissons) sur place !
     VENEZ NOMBREUX !
+- date: 2026-04-24
+  date_lisible: Vendredi 24 Avril 2026
+  type: concert
+  titre: "Soirée piano avec Amélie"
+  texte: |
+    Ambiance calme et tamisée permettant de profiter pleinement de l'instrument et des morceaux joués. Venez découvrir un répertoire à l'atmosphère introspective au coeur de l'émotion.
+- date: 2026-04-22
+  date_lisible: Mercredi 22 Avril 2026
+  type: rencontre
+  titre: "Soirée inter-associations"
+  texte: |
+    Soirée de rencontre entre les associations de notre village visant à mieux nous connaitre et à favoriser l'entraide.
 - date: 2026-03-31
   date_lisible: Mardi 31 mars 2026 à partir de 19h30
   type: rencontre
