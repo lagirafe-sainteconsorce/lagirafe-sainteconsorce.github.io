@@ -1,15 +1,15 @@
-- date: 2026-07-27
-  date_lisible: Vendredi 27  2026
-  type: jeux
-  titre: "test"
-  texte: |
-    test
 - date: 2026-07-04
   date_lisible: Samedi 4 Juillet 2026
   type: concert
   titre: "GIRAF'ESTIVAL #3"
   texte: |
     🦒 GIRAF’ESTIVAL 2026 à Sainte-Consorce sur la place du village Samedi 4 juillet - Une soirée d’été festive, conviviale avec entrée libre ! ✨
+    👉 ANIMATIONS dès 17h avec Petit marché artisanal, Stand de tir laser, Conteuse - Un moment magique pour petits et grands
+    💃🕺 18h15 - BOUM - Les enfants lancent la fête !
+    🎶 À partir de 19h – CONCERTS LIVE (Folk You : Reprises pop, Full Ness : Pop rock, Los Piratas : Gipsy latino) - De quoi chanter, danser et voyager toute la soirée !
+    🎧 00h – DJ SET - On prolonge la fête jusqu’au bout de la nuit !
+    🍔 Goûter • Buvette • Restauration
+    🌟 Entre amis, en famille, petits et grands… venez vibrer sous les étoiles ! 🦒
 - date: 2026-04-24
   date_lisible: Vendredi 24 Avril 2026
   type: concert
