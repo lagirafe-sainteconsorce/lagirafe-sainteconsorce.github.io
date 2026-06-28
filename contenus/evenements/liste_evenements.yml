@@ -1,3 +1,9 @@
+- date: 2026-07-27
+  date_lisible: Vendredi 27  2026
+  type: jeux
+  titre: "test"
+  texte: |
+    test
 - date: 2026-07-04
   date_lisible: Samedi 4 Juillet 2026
   type: concert
