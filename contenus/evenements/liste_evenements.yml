@@ -1,28 +1,28 @@
-date: 2026-11-27
+- date: 2026-11-27
   date_lisible: Vendredi 27 Novembre 2026
   type: concert
   titre: "Concert voix / guitare"
   texte: |
     🎤 🎧 🎸
-date: 2026-11-26
+- date: 2026-11-26
   date_lisible: Jeudi 26 Novembre 2026
   type: rencontre
   titre: "Café littéraire"
   texte: |
     Venez échanger autour du roman 'Thérèse Raquin' d'Emile Zola
-date: 2026-11-21
+- date: 2026-11-21
   date_lisible: Vendredi 21 Novembre 2026
   type: rencontre
   titre: "Beaujolais Nouveau"
   texte: |
     🍷 Venez découvrir le Beaujolais Nouveau de cette année 2026
-date: 2026-11-18
+- date: 2026-11-18
   date_lisible: Mercredi 18 Novembre 2026 20h30
   type: rencontre
   titre: "Café Philo - Peut-on critiquer la démocratie ?"
   texte: |
     Diffusion d'un entretien avec le philosophe Geoffroy De Lagasnerie à l'occasion de la sortie de son dernier livre 'L'âme noire de la démocratie', suivi d'un débat
-date: 2026-07-04
+- date: 2026-07-04
   date_lisible: Samedi 4 Juillet 2026
   type: concert
   titre: "GIRAF'ESTIVAL #3"
